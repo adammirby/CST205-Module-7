@@ -16,7 +16,6 @@ class dice:
     for i in range(0, numOfDice):
       self.rolls.append(random.randrange(self.sidesOfDie))
       
-  
   def rollAllDice(self):
     for i in range(0, self.numOfDice):
       self.rolls[i] = random.randrange(self.sidesOfDie)
@@ -27,3 +26,6 @@ class dice:
       
   def getRolls(self):
     return self.rolls
+   
+  def test(self):
+    pass
